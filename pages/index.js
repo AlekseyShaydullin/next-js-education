@@ -8,7 +8,7 @@ import Link from "next/link";
 
 function Index() {
   return (
-      <MainContainer keywords={'main page'}>
+      <MainContainer keywords={'main page'} title={'Главная страница'}>
         <section className={style.wrapper}>
           <h1 className={style.title}>Учебный проект по технологии NextJS</h1>
           <p className={style.description}>В проекте реализовано:</p>

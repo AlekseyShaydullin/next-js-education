@@ -10,7 +10,7 @@ export default function User({user}) {
   const {city, street, suite, zipcode} = user.address
 console.log(user);
   return (
-    <MainContainer keywords={user.name}>
+    <MainContainer keywords={user.name} title={'Страница пользователя'}>
       <section>
         <h1 className={style.user__id}>Пользователь c id {query.id}:</h1>
         <p className={style.user__text}><b>Имя пользователя:</b> {user.name}</p>

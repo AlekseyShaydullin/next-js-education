@@ -5,7 +5,7 @@ import style from '../styles/Users.module.css'
 function Users({users}) {
 
   return (
-    <MainContainer keywords={'users'}>
+    <MainContainer keywords={'users'} title={'Страница пользователей'}>
       <h1 className={style.title}>Список пользователей:</h1>
       <ul className={style.list}>
         {users.map(user =>
