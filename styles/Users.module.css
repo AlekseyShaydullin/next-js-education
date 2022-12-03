@@ -1,0 +1,27 @@
+.title {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.list {
+  list-style: none;
+}
+
+.item {
+  padding-top: 25px;
+}
+
+.link {
+  text-decoration: none;
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 400;
+  font-size: 22px;
+  color: black;
+}
+
+.link:hover {
+  border-bottom: 1px solid gray;
+}

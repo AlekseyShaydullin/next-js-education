@@ -1,0 +1,14 @@
+@import url(../vendor/fonts/fonts.css);
+
+.navbar {
+  padding: 35px;
+  margin: 0 auto;
+  max-width: 880px;
+  border-bottom: 1px solid gray;
+}
+
+.children {
+  padding-top: 35px;
+  margin: 0 auto;
+  max-width: 880px;
+}

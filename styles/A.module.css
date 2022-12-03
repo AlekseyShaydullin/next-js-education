@@ -1,0 +1,19 @@
+.link {
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: black;
+  border: 1px solid gray;
+  border-radius: 2px;
+}
+
+.link:hover {
+  color: white;
+  border: 1px solid rgb(73, 62, 223);
+  background: rgb(94, 114, 214);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
